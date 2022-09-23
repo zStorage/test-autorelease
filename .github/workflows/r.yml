@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "done!"
 
-      - uses: "ProdigyPNP/autorelease-phex@latest"
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
